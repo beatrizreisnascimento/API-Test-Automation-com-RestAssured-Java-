@@ -1,15 +1,23 @@
-# QA Automation Web Selenium
+# API Automation with RestAssured
 
-Projeto de automação de testes web utilizando Java e Selenium.
+Este projeto contém testes automatizados de API usando Java, TestNG e RestAssured.
 
 ## Estrutura
 
-- `pages/` → classes de página (Page Objects)
-- `tests/` → classes de teste
-- `pom.xml` → dependências Maven
+- `tests/` - Classes de teste
+- `utils/` - Utilitários para requisições
+- `models/` - Modelos de dados (POJOs)
+- `resources/` - Arquivos de configuração
 
-## Como rodar
+## Como executar
 
-1. Clonar o repositório
-2. Abrir no IDE (IntelliJ/Eclipse)
-3. Rodar os testes como JUnit Test
+1. Clone o projeto
+2. Execute os testes via Maven:
+   mvn test
+
+## Tecnologias
+
+- Java 17
+- Maven
+- TestNG
+- RestAssured
